@@ -1,0 +1,37 @@
+15:37:37.498 [main] INFO  io.gatling.compiler.ZincCompiler$ - compiling 5 Scala sources and 3 Java sources to C:\Users\Kinaypc\Desktop\Tester\karate_demo\target\test-classes ...
+15:37:58.219 [main] INFO  io.gatling.compiler.ZincCompiler$ - done compiling
+15:38:02.434 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+15:38:03.978 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+15:38:06.165 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+15:38:06.166 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+15:38:06.196 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+15:38:06.205 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+15:38:09.163 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+15:38:09.163 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+15:38:09.163 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+15:38:09.243 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  i.g.core.controller.inject.Injector - Scenario Create An Article has finished injecting
+15:38:09.244 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  i.g.core.controller.inject.Injector - Injecting is done
+15:38:09.409 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+15:38:10.241 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+15:38:12.407 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:12.449 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:12.487 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:12.504 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:12.531 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:12.810 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:12.817 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  c.intuit.karate.core.FeatureRuntime - classpath:callers/conduit/token.feature - call by tag at line 4: login
+15:38:14.457 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - [print] TOKEN:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZW1haWx0ZXN0ZGF0YUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6IkthcmF0ZSBUZXN0IiwiaWF0IjoxNjgzNDYzMDkzLCJleHAiOjE2ODg2NDcwOTN9.bGNwORo3_4OyhJc1cYuRnCBqpWLpnC1NuEkO3XKcMaM 
+15:38:14.462 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:14.463 [GatlingSystem-akka.actor.default-dispatcher-8] WARN  com.intuit.karate - this thread waited 1584 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:14.467 [GatlingSystem-akka.actor.default-dispatcher-9] WARN  com.intuit.karate - this thread waited 1597 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:14.474 [GatlingSystem-akka.actor.default-dispatcher-5] WARN  com.intuit.karate - this thread waited 1608 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:14.476 [GatlingSystem-akka.actor.default-dispatcher-7] WARN  com.intuit.karate - this thread waited 1612 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+15:38:17.007 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.core.controller.inject.Injector - All users of scenario Create An Article are stopped
+15:38:17.008 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.core.controller.inject.Injector - Stopping
+15:38:17.011 [GatlingSystem-akka.actor.default-dispatcher-11] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+15:38:17.086 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+15:38:17.163 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(C:\Users\Kinaypc\Desktop\Tester\karate_demo\target\gatling\cdarticlesimulation-20230507123805991\simulation.log) from cdarticlesimulation-20230507123805991
+15:38:17.193 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+15:38:17.207 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 22 lines
+15:38:17.227 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+15:38:17.287 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 22 lines

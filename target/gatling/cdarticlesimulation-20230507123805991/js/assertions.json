@@ -1,0 +1,10 @@
+{
+  "simulation": "performanceRunners.CDArticleSimulation",
+  "simulationId": "cdarticlesimulation",
+  "start": 1683463085991,
+  "description": "",
+  "scenarios": ["Create An Article"],
+  "assertions": [
+
+  ]
+}
